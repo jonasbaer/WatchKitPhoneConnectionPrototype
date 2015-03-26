@@ -18,6 +18,9 @@
                                 <button width="1" alignment="left" title="Send &quot;Hi :)&quot;" id="VXN-94-Ftf">
                                     <color key="backgroundColor" red="0.6837245715121083" green="0.68340916203773694" blue="0.81491309404373169" alpha="1" colorSpace="calibratedRGB"/>
                                     <fontDescription key="font" type="system" pointSize="14"/>
+                                    <connections>
+                                        <action selector="sendToPhoneButtonPressed" destination="AgC-eL-Hgc" id="q3W-IC-dfQ"/>
+                                    </connections>
                                 </button>
                                 <separator alignment="left" verticalAlignment="center" id="G5p-mu-xCO"/>
                                 <label height="55" alignment="left" verticalAlignment="bottom" text="Received from iPhone" numberOfLines="0" id="Q6O-CD-t6l">
@@ -26,6 +29,10 @@
                             </items>
                         </group>
                     </items>
+                    <connections>
+                        <outlet property="buttonLabelSendToPhone" destination="VXN-94-Ftf" id="7f5-cQ-4B5"/>
+                        <outlet property="messageReceivedFromPhone" destination="Q6O-CD-t6l" id="N0e-Tw-jxR"/>
+                    </connections>
                 </controller>
             </objects>
             <point key="canvasLocation" x="245" y="320.75"/>

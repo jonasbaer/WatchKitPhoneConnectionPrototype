@@ -637,6 +637,7 @@
 				EE36E5ED1AC4018D00B60F1D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EE36E5EE1AC4018D00B60F1D /* Build configuration list for PBXNativeTarget "WatchKitPhoneConnectionPrototypeTests" */ = {
 			isa = XCConfigurationList;
@@ -645,6 +646,7 @@
 				EE36E5F01AC4018D00B60F1D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EE36E60E1AC401A300B60F1D /* Build configuration list for PBXNativeTarget "WatchKitPhoneConnectionPrototype WatchKit App" */ = {
 			isa = XCConfigurationList;
@@ -653,6 +655,7 @@
 				EE36E6101AC401A300B60F1D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EE36E6111AC401A300B60F1D /* Build configuration list for PBXNativeTarget "WatchKitPhoneConnectionPrototype WatchKit Extension" */ = {
 			isa = XCConfigurationList;
@@ -661,6 +664,7 @@
 				EE36E6131AC401A300B60F1D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

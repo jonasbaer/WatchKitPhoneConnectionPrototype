@@ -41,6 +41,25 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
     }
 
+// JB : manual functions allowing communication between WatchKIT and ViewController
 
+    func application(application: UIApplication!,
+        handleWatchKitExtensionRequest userInfo: [NSObject : AnyObject]!,
+        reply: (([NSObject : AnyObject]!) -> Void)!) {
+
+            // 1
+            if let request = userInfo["request"] as? String {
+                if request == "refreshData" {
+                    // 2
+
+
+                    // 3
+                    //reply(["coinData": NSKeyedArchiver.archivedDataWithRootObject(coins)])
+                    return
+                }
+            }
+            // 4
+            reply([:])
+    }
 }
 
