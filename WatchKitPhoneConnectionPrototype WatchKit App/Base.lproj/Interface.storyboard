@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="6751" systemVersion="14A389" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="AgC-eL-Hgc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6736"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="3737"/>
+    </dependencies>
+    <scenes>
+        <!--Interface Controller-->
+        <scene sceneID="aou-V4-d1y">
+            <objects>
+                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="WatchKitPhoneConnectionPrototype_WatchKit_App" customModuleProvider="target">
+                    <items>
+                        <group width="1" height="160.5" alignment="left" layout="vertical" id="PaA-Iz-2VS">
+                            <items>
+                                <label width="136" height="31.5" alignment="center" text="Prototype" textAlignment="center" id="Igr-oX-MH7">
+                                    <fontDescription key="font" type="boldSystem" pointSize="16"/>
+                                </label>
+                                <button width="1" alignment="left" title="Send &quot;Hi :)&quot;" id="VXN-94-Ftf">
+                                    <color key="backgroundColor" red="0.6837245715121083" green="0.68340916203773694" blue="0.81491309404373169" alpha="1" colorSpace="calibratedRGB"/>
+                                    <fontDescription key="font" type="system" pointSize="14"/>
+                                </button>
+                                <separator alignment="left" verticalAlignment="center" id="G5p-mu-xCO"/>
+                                <label height="55" alignment="left" verticalAlignment="bottom" text="Received from iPhone" numberOfLines="0" id="Q6O-CD-t6l">
+                                    <fontDescription key="font" type="system" pointSize="13"/>
+                                </label>
+                            </items>
+                        </group>
+                    </items>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="245" y="320.75"/>
+        </scene>
+    </scenes>
+</document>
